@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-weight: bolder;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+header img{
+    width: 8%; /*vw: viewport width */
+    margin-right: 10px;
+    padding: 5px;
+}
+section img{
+    width: 40%;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 12pt;
+    margin-left: 15px;
+}
+aside{
+    display: flex;
+    align-items: center;
+}
+.text h2, .text p{
+    padding: 10px;
+    margin: 20px 10px 0px 10px;
+    color: darkblue;
+}
+.text h2{
+    font-size: 24pt;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+
+.receita{
+    font-size: 11pt;
+    color: darkgreen;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
